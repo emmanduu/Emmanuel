@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.1.0",
+    "react-dom": "https://esm.sh/react-dom@19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@19.1.0/"
+  }
+}
+</script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel's Poetry</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img
+      class="centered-image"
+      src="https://media.istockphoto.com/id/1273687390/photo/poetry-word-in-gritty-vintage-letterpress-metal-types.webp?a=1&b=1&s=612x612&w=0&k=20&c=bAKYQExp8UjFU8ONMaWz__bFR2UmtJFA84n1IkY0Bto="
+      alt="The word poetry in vintage letterpress type"
+      width="200"
+    />
+
+    <h1>Introduction</h1>
+    <p>
+      Welcome to
+      <em>Emmanuel's poetry,</em>
+      this page is a collection of thoughts, moments, and memories, written down
+      before they could slip away. Poetry, for me, is a way of holding onto what
+      matters; a feeling, a face, a place I have called home.
+    </p>
+    <h2>Latest Poems</h2>
+    <img
+      class="centered-image"
+      src="https://i.pinimg.com/736x/a8/12/1f/a8121f4815688cae3d0034e0c202c6d3.jpg"
+      alt="Poetry-themed illustration"
+      width="170"
+    />
+    <ul>
+      <li><em>Bradford wrapped her arms around me</em></li>
+      <li><em>Through My own Tears</em></li>
+      <li><em>An Alternative Lifetime</em></li>
+    </ul>
+
+    <h3>About the Poet</h3>
+    <p>
+      Emmanuel is from the Igbo-speaking part of Nigeria and is now based in
+      Bradford. He is passionate about community, storytelling, and celebrating
+      culture. He loves volunteering and currently volunteers at the Bradford
+      Central Foodbank and Bradford Community Broadcasting.
+    </p>
+    <img
+      src="https://clipart-library.com/images/ATbjLqX5c.png"
+      width="150"
+      alt="Decorative poetry clipart"
+    />
+
+    <div id="app"></div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+function App() {
+  return (/*#__PURE__*/
+    React.createElement("main", null, /*#__PURE__*/
+    React.createElement("header", null, /*#__PURE__*/
+    React.createElement("div", { class: "icon" }, "\u269B\uFE0F"), " Site Powered by React"
+    )
+    ));
+
+}
+
+const root = ReactDOM.createRoot(document.getElementById("app"));
+
+root.render(/*#__PURE__*/React.createElement(App, null));
+{
+  "version": 3,
+  "names": [
+    "React",
+    "ReactDOM",
+    "App",
+    "createElement",
+    "class",
+    "root",
+    "createRoot",
+    "document",
+    "getElementById",
+    "render"
+  ],
+  "sources": [
+    "script.jsx"
+  ],
+  "mappings": "AAAA,OAAOA,KAAK,MAAM,OAAO;AACzB,OAAOC,QAAQ,MAAM,kBAAkB;;AAEvC,SAASC,GAAGA,CAAA,EAAG;EACb;IACEF,KAAA,CAAAG,aAAA;IACEH,KAAA,CAAAG,aAAA;IACEH,KAAA,CAAAG,aAAA,UAAKC,KAAK,EAAC,MAAM,IAAC,cAAO,CAAC;IACpB;IACJ,CAAC;;AAEX;;AAEA,MAAMC,IAAI,GAAGJ,QAAQ,CAACK,UAAU,CAACC,QAAQ,CAACC,cAAc,CAAC,KAAK,CAAC,CAAC;;AAEhEH,IAAI,CAACI,MAAM,cAACT,KAAA,CAAAG,aAAA,CAACD,GAAG,MAAE,CAAC,CAAC",
+  "ignoreList": []
+}html {
+  background: white;
+  color: purple;
+  font:
+    300 100%/1.4 system-ui,
+    sans-serif;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  height: 100dvh;
+  display: grid;
+  place-items: left;
+}
+
+header {
+  text-align: center;
+}
+.icon {
+  font-size: 10dvw;
+}
