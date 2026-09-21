@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "names": [
+    "React",
+    "ReactDOM",
+    "App",
+    "createElement",
+    "class",
+    "root",
+    "createRoot",
+    "document",
+    "getElementById",
+    "render"
+  ],
+  "sources": [
+    "script.jsx"
+  ],
+  "mappings": "AAAA,OAAOA,KAAK,MAAM,OAAO;AACzB,OAAOC,QAAQ,MAAM,kBAAkB;;AAEvC,SAASC,GAAGA,CAAA,EAAG;EACb;IACEF,KAAA,CAAAG,aAAA;IACEH,KAAA,CAAAG,aAAA;IACEH,KAAA,CAAAG,aAAA,UAAKC,KAAK,EAAC,MAAM,IAAC,cAAO,CAAC;IACpB;IACJ,CAAC;;AAEX;;AAEA,MAAMC,IAAI,GAAGJ,QAAQ,CAACK,UAAU,CAACC,QAAQ,CAACC,cAAc,CAAC,KAAK,CAAC,CAAC;;AAEhEH,IAAI,CAACI,MAAM,cAACT,KAAA,CAAAG,aAAA,CAACD,GAAG,MAAE,CAAC,CAAC",
+  "ignoreList": []
+}

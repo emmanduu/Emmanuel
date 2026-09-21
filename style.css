@@ -1,0 +1,26 @@
+html {
+  background: white;
+  color: purple;
+  font:
+    300 100%/1.4 system-ui,
+    sans-serif;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  height: 100dvh;
+  display: grid;
+  place-items: left;
+}
+
+header {
+  text-align: center;
+}
+.icon {
+  font-size: 10dvw;
+}
